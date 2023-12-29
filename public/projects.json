@@ -1,0 +1,69 @@
+[
+    {
+        "gitHubLink": "https://github.com/BahEsau/E-Bus-Booking-in-Laravel-8",
+        "projectTitle": "Glide-it  full-stack",
+        "projectContent": "An application that allows bus operators to creates and manage trips with other related resources and permits travelers to book and pay their trips through the application",
+        "projectTechnologies":"Laravel, javascript, ajax, tailwinds HTMl CSS ",
+        "published" : true
+    },
+    {
+        "gitHubLink": "https://github.com/BahEsau/E-Bus-Booking-in-Laravel-8",
+        "projectTitle": "Glide-it UI/Ux",
+        "projectContent": "An application that allow bus operators to creates and manage trips with other related resources and permits travelers to book and pay their trips through the application. ",
+        "projectTechnologies":"Adobe XD, photoshope ",
+        "published" : true
+    },
+    {
+        "gitHubLink": "#",
+        "projectTitle": "Pharmacy app UI/UX",
+        "projectContent": "An application that allows bus operators to creates and manage trips with other related resources and permits travelers to book and pay their trips through the application",
+        "projectTechnologies":"Adobe XD, photoshope ",
+        "published" : true
+    },
+    {
+        "gitHubLink": "https://github.com/DialloAbdourahman/Assoh-Backend",
+        "projectTitle": "Assoh UI/Ux",
+        "projectContent": "Assoh is application that allows people to sell their products to customers without having to create a full e-commerce website. This application is made for Aficans and hence uses Africans currencies and marketing strategies. It is still under development.",
+        "projectTechnologies":"Adobe XD, photoshope, figma ",
+        "published" : true
+    },
+    {
+        "gitHubLink": "#",
+        "projectTitle": "Pharmacy app UI/UX",
+        "projectContent": "An application that allows bus operators to creates and manage trips with other related resources and permits travelers to book and pay their trips through the application",
+        "projectTechnologies":"Adobe XD, photoshope ",
+        "published" : true
+    },
+    {
+        "gitHubLink": "https://github.com/BahEsau/a-crash-student-Result-system",
+        "projectTitle": "student Results management system full-stack",
+        "projectContent": "system that manage results in a school. Teachers create the results while each student get to see and download only his/her results slip",
+        "projectTechnologies":"Laravel,  ajax, HTML, CSS, bootstrap ",
+        "published" : true
+    },
+    {
+        
+        "gitHubLink": "https://github.com/BahEsau/HospitalProject",
+        "projectTitle": "Hospital app full-stack",
+        "projectContent": "manages the structure of a hospital a, connect/link hospitals most importantly help the doctors follow up their patients where patients get to see their medical reports on their electronic devices",
+        "projectTechnologies":"Laravel, javascript, ajax, tailwinds HTMl CSS ",
+        "published" : true
+    },
+    {
+        
+        "gitHubLink": "https://www.figma.com/file/NJuBmSVC7TWLDcIC9V0d8d/hospitalApp?type=design&t=ufYA0Q7RZCldu7we-6",
+        "projectTitle": "Hospital app UI/UX",
+        "projectContent": "this portfolio to showcase my skills .",
+        "projectTechnologies":"Figma",
+        "published" : true
+    },
+    {
+        
+        "gitHubLink": "https://github.com/BahEsau/portfolio",
+        "projectTitle": "My portfolio front-end",
+        "projectContent": "this portfolio to showcase my skills ",
+        "projectTechnologies":"vue.js ",
+        "published" : true
+    }
+
+] 

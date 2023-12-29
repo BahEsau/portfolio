@@ -1,5 +1,5 @@
 <template>
-    <div class="sidebar absolute top-64 grid space-y-5">
+    <div class="sidebar absolute  grid space-y-5">
         <div class="phone" title="Call Me">
 
             <a href="tel:+237681070745"><svg xmlns="http://www.w3.org/2000/svg" 
@@ -23,7 +23,7 @@
                     w-9 
                     hover:scale-125
                     cursor-pointer" 
-             viewBox="0 0 24 24"><path fill="#ffffff" d="M20 18h-2V9.25L12 13L6 9.25V18H4V6h1.2l6.8 4.25L18.8 6H20m0-2H4c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2"/></svg></a>
+             viewBox="0 0 24 24"><path  fill="#ffffff" d="M20 18h-2V9.25L12 13L6 9.25V18H4V6h1.2l6.8 4.25L18.8 6H20m0-2H4c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2"/></svg></a>
 
         </div>
         <div class="whatsapp" title="Whatsapp Me" >
@@ -38,11 +38,41 @@
     </div>
 </template>
 <style scoped>
-.sidebar{
-        z-index:20;
+/* phones */
+@media only screen and (max-width: 40em) {
+    .sidebar{
+        z-index:30;
+        margin-top:180px;
     }
     
 .important{
     background-color: #ff9900;
+}
+}
+
+/* tablets */
+@media only screen and (min-width: 40em) and (max-width: 48em) {
+    .sidebar{
+        z-index:30;
+        margin-top:100px !important;
+        height: 40px;
+        width: 40px;
+    }
+    
+.important{
+    background-color: #ff9900;
+}   
+}
+
+/* laptops */
+@media only screen and (min-width: 48em) {
+    .sidebar{
+        z-index:30;
+        margin-top:300px;
+    }
+    
+.important{
+    background-color: #ff9900;
+}
 }
 </style>

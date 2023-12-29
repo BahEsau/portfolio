@@ -10,7 +10,7 @@
               -mr-28
               border
               rounded-l-full
-              w-1/2
+              
               pb-96
               pr-40
               pl-80">
@@ -35,67 +35,43 @@
 <style scoped>
 /*  */
 
-
-@media  screen and (min-width: 1441px){
-    
+  /* Small devices such as small phones (640px and down) */
+@media only screen and (max-width: 40em)  {
     .picDev{  
-  transform: rotate(-25deg);
-  background-color: #FF9900;
-  overflow: hidden;
-  z-index:-2;
-}
-  .picUp{  
-   margin-left:56%;
-   margin-top:7.7%;
-   height: 440px;
-   width: 395px;
-   /* width: 3%; */
-   z-index: -1;
-   transform: rotate(5deg);
-}
-.roundDiv1{
-    margin-left:-22.5%;
-    margin-top:2.8%;
+    transform: rotate(-25deg);
+    background-color: #FF9900;
+    overflow: hidden;
     z-index:-2;
     
-}
   }
-@media  screen and (min-width: 1024px) and (max-width: 1440px){
-    
-    .picDev{  
-  transform: rotate(-25deg);
-  background-color: #FF9900;
-  overflow: hidden;
-  z-index:-2;
-}
-  .picUp{  
-   margin-left:58.7%;
-   margin-top:5.7%;
-   height: 440px;
-   width: 395px;
-   /* width: 3%; */
-   z-index: -1;
-   transform: rotate(5deg);
-}
-.roundDiv1{
-    margin-left:-40.5%;
-    margin-top:3.8%;
-    z-index:-2;
-    
-}
+    .picUp{  
+    margin-left:5%;
+    margin-top:8%;
+    height: 440px;
+    width: 395px;
+    /* width: 3%; */
+    z-index: -1;
+    transform: rotate(5deg);
   }
+  .roundDiv1{
+      margin-left:-57.5%;
+      margin-top:7%;
+      z-index:-2;
+      
+  }
+}
 
-@media  screen and (min-width: 769px)and (max-width: 1024px){
-    
-    .picDev{  
+@media only screen and (min-width: 40em) and (max-width: 48em) {
+  .picDev{  
   transform: rotate(-25deg);
   background-color: #FF9900;
   overflow: hidden;
   z-index:-2;
+  
 }
   .picUp{  
-   margin-left:61%;
-   margin-top:4%;
+   margin-left:44%;
+   margin-top:5%;
    height: 440px;
    width: 395px;
    /* width: 3%; */
@@ -108,19 +84,22 @@
     z-index:-2;
     
 }
-  }
-  
-  @media  screen and (min-width: 427px) and (max-width: 768px){
+}
 
-    .picDev{  
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 48em) {
+  .picDev{  
   transform: rotate(-25deg);
   background-color: #FF9900;
   overflow: hidden;
   z-index:-2;
+  width:700px;
+  
 }
   .picUp{  
-   margin-left:53%;
-   margin-top:3.8%;
+   left:5%;
+   margin-top:5%;
    height: 440px;
    width: 395px;
    /* width: 3%; */
@@ -128,16 +107,16 @@
    transform: rotate(5deg);
 }
 .roundDiv1{
-    margin-left:-57.5%;
-    margin-top:7%;
+    right:50%;
+    top:-19px;
     z-index:-2;
     
 }
+}
 
-  }
-  
-  @media  screen and  (min-width: 424px) and (max-width: 426px) {
-    .picDev{  
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 64em) {
+  .picDev{  
   transform: rotate(-25deg);
   background-color: #FF9900;
   overflow: hidden;
@@ -159,41 +138,20 @@
     z-index:-2;
     
 }
-  }
-  @media  screen and  (min-width: 375px) and (max-width: 425px) {
-    .picDev{  
-  transform: rotate(-25deg);
-  background-color: #FF9900;
-  overflow: hidden;
-  z-index:-2;
 }
-  .picUp{  
-   margin-left:8%;
-   margin-top:7%;
-   height: 440px;
-   width: 395px;
-   /* width: 3%; */
-   z-index: -1;
-   transform: rotate(5deg);
-}
-.roundDiv1{
-    margin-left:-57.5%;
-    margin-top:7%;
-    z-index:-2;
-    
-}
-  }
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 80em) {
   
-  @media  screen and (max-width: 320px){
-    .picDev{  
+  .picDev{  
   transform: rotate(-25deg);
   background-color: #FF9900;
   overflow: hidden;
   z-index:-2;
 }
   .picUp{  
-   margin-left:2%;
-   margin-top:8%;
+   margin-left:53%;
+   margin-top:3.8%;
    height: 440px;
    width: 395px;
    /* width: 3%; */
@@ -206,6 +164,6 @@
     z-index:-2;
     
 }
-  }
+}
 
 </style>

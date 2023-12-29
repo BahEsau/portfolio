@@ -166,7 +166,7 @@
     }
 }
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 40em){
     .contactMe{
         display: flex;
         justify-content: start ;

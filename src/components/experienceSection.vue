@@ -105,7 +105,60 @@
 </template>
 <style scoped>
 
+@media only screen and (max-width: 40em){
+    .container{
+    margin-top:20px;
+}
+.activities{
+    width:60%;
+    margin-top:-20px;
+}
+.firstExp{
+display: inline-flex;
+flex-wrap: wrap;
+gap:60px;
+justify-content: center;
+margin-left:5px;
+z-index:-30;
+margin-left:10px;
+}
+.secondExp{
+display: inline-flex;
+flex-wrap: wrap;
+gap:60px;
+justify-content: center;
+margin-left:5px;
+z-index:-30;
+margin-left:10px;
+}
+.heading, .companyName{
+    font-family: 'Crimson Text', serif;
+    color:#052D68;  
 
+}
+.companyTime{
+    color:#052D68;
+    font-size: small;
+
+}
+.contHead{
+    display: flex;
+    justify-content: center;  
+}
+.arrows{  
+    color:#052D68;
+    font-weight: normal;
+    font-size: normal;  
+}
+.box1, .box2{  
+background-color:#ff990016;
+margin-top:200px;
+}
+.box3{  
+left:-20 ;
+margin-top:200px;
+}
+}
     @media only screen and (min-width: 769px){
         .container{
         margin-top:100px;
@@ -273,57 +326,6 @@
     }
 
 @media only screen and (max-width: 320px){
-.container{
-    margin-top:20px;
-}
-.activities{
-    width:60%;
-    margin-top:-20px;
-}
-.firstExp{
-display: inline-flex;
-flex-wrap: wrap;
-gap:60px;
-justify-content: center;
-margin-left:5px;
-z-index:-30;
-margin-left:10px;
-}
-.secondExp{
-display: inline-flex;
-flex-wrap: wrap;
-gap:60px;
-justify-content: center;
-margin-left:5px;
-z-index:-30;
-margin-left:10px;
-}
-.heading, .companyName{
-    font-family: 'Crimson Text', serif;
-    color:#052D68;  
 
-}
-.companyTime{
-    color:#052D68;
-    font-size: small;
-
-}
-.contHead{
-    display: flex;
-    justify-content: center;  
-}
-.arrows{  
-    color:#052D68;
-    font-weight: normal;
-    font-size: normal;  
-}
-.box1, .box2{  
-background-color:#ff990016;
-margin-top:200px;
-}
-.box3{  
-left:-20 ;
-margin-top:200px;
-}
 }
 </style>

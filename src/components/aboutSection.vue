@@ -118,6 +118,55 @@
 .skilHead{  
     color:#052D68;   
 } */
+
+@media only screen and (max-width: 37.5em){
+.heading{
+    font-family: 'Crimson Text', serif;
+    color:#052D68;
+    width: fit-content;
+    margin-left:110px;
+}
+.roundDiv2{
+    background-color: #FF9900; 
+    border: solid 8px #ffffffcf !important;
+    height: fit-content;
+    width: fit-content;
+    margin-left:0px;
+    margin-right:-10px;
+    z-index:-30;
+}
+.secondBox{
+    background-color: #ff990021; 
+}
+.arrows{  
+    color: #FF9900;
+    font-weight: normal;
+    font-size: normal;  
+}
+.skilHead{  
+    color:#052D68;   
+}
+.container{
+    margin-top:-20px;
+    width:67%;
+    display: inline-flex;
+    flex-wrap:wrap;
+    flex: 50%;
+    justify-content: center;
+    gap: 60px;
+    margin-left:45px;
+    z-index:-1;
+    
+}
+.skils{
+    margin-top:280px;
+}
+.aboutMe{
+    margin-left:10px;
+}
+}
+
+
 @media only screen and (min-width: 2559px) {
     .heading{
         font-family: 'Crimson Text', serif;
@@ -314,49 +363,6 @@
 }
 
 @media only screen and (max-width: 320px) {
-.heading{
-    font-family: 'Crimson Text', serif;
-    color:#052D68;
-    width: fit-content;
-    margin-left:90px;
-}
-.roundDiv2{
-    background-color: #FF9900; 
-    border: solid 8px #ffffffcf !important;
-    height: fit-content;
-    width: fit-content;
-    margin-left:0px;
-    margin-right:-10px;
-    z-index:-30;
-}
-.secondBox{
-    background-color: #ff990021; 
-}
-.arrows{  
-    color: #FF9900;
-    font-weight: normal;
-    font-size: normal;  
-}
-.skilHead{  
-    color:#052D68;   
-}
-.container{
-    margin-top:-20px;
-    width:67%;
-    display: inline-flex;
-    flex-wrap:wrap;
-    flex: 50%;
-    justify-content: center;
-    gap: 60px;
-    margin-left:45px;
-    z-index:-1;
-    
-}
-.skils{
-    margin-top:280px;
-}
-.aboutMe{
-    margin-left:10px;
-}
+
 }
 </style>

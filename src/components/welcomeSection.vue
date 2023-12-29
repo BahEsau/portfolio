@@ -5,7 +5,8 @@
                 grid
                 space-y-7
                 grid-rows
-                mt-28">
+                mt-28
+                ">
         <span class="greetings
                      w-64
                      rounded-sm 
@@ -89,9 +90,68 @@ export default{
 
 <style scoped>
 
-    /* @media only screen and (min-width: 768px){
+@media only screen and (max-width: 40em) {
+    .welcome{
+        margin-left:10%;
+        width: 90%;
+        margin-top:500px;
+    }
+    .audience{
+        margin-left:0%;
+        width: 90%;
+        margin-top:60%;
+    }
+    .greetings{
+        background-color:#ff99000a;
+        color:#a66400fe;
+        margin-left:-10%;
+    }
+    
+    .buttons{
+        margin-right:20px;
+      
+    }
+    .hirebtn{
+        background-color:#ff9900;
+        color:white;
+        border: solid 2px #ff9900;
+        width:90px;
+        z-index:-30;
+    }
+    .hirebtn:hover{
+        background-color:#e68e0a;
+        border: solid 2px #e68e0a;
+    }
+    .cvbtn{
+        background-color:white;
+        color:#ff9900;
+        border: solid 2px #ff9900;
+        width:90px;
+        font-size:smaller;
+        
 
-} */
+    }
+    .svgDonwload{
+        width:14px;
+        height:14px;
+        margin-left:20px;
+        margin-top:4px;
+    }
+    .cvbtn:hover{
+        background-color:#ff9900;
+        color:white;
+    }
+    hr{
+        border: solid 1px #ff9900;
+
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+    .name{
+        font-family: 'Crimson Text', serif;
+        color: #002256;
+        font-size: 30px;
+    }
+}
 
 
 @media only screen and (min-width: 769px){
@@ -272,63 +332,6 @@ export default{
 }
 
 @media only screen and (max-width: 320px){
-    .welcome{
-        margin-left:10%;
-        width: 90%;
-        margin-top:500px;
-    }
-    .audience{
-        margin-left:0%;
-        width: 90%;
-        margin-top:60%;
-    }
-    .greetings{
-        background-color:#ff99000a;
-        color:#a66400fe;
-        margin-left:-10%;
-    }
-    
-    .buttons{
-        margin-right:20px;
-    }
-    .hirebtn{
-        background-color:#ff9900;
-        color:white;
-        border: solid 2px #ff9900;
-        width:90px;
-    }
-    .hirebtn:hover{
-        background-color:#e68e0a;
-        border: solid 2px #e68e0a;
-    }
-    .cvbtn{
-        background-color:white;
-        color:#ff9900;
-        border: solid 2px #ff9900;
-        width:90px;
-        font-size:smaller;
-        
 
-    }
-    .svgDonwload{
-        width:14px;
-        height:14px;
-        margin-left:20px;
-        margin-top:4px;
-    }
-    .cvbtn:hover{
-        background-color:#ff9900;
-        color:white;
-    }
-    hr{
-        border: solid 1px #ff9900;
-
-    }
-    @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
-    .name{
-        font-family: 'Crimson Text', serif;
-        color: #002256;
-        font-size: 30px;
-    }
 }
 </style>
