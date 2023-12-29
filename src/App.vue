@@ -158,6 +158,7 @@
   z-index:100;
   margin-top:20px;
   margin-left:320px;
+  position:fixed;
 }
 .l{
     color: #002256;  
@@ -204,6 +205,7 @@
   z-index:100;
   margin-top:20px;
   margin-left:590px;
+  position:fixed;
 }
 .l{
     color: #002256;  
