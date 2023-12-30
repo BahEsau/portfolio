@@ -50,7 +50,7 @@
 }
 }
 
-/* tablets */
+/* tablets */ /* medium screens rotate */
 @media only screen and (min-width: 40em) and (max-width: 48em) {
     .sidebar{
         z-index:30;
@@ -74,5 +74,20 @@
 .important{
     background-color: #ff9900;
 }
+}
+
+/* Medium devices such as tablets (768px and up)  this is one*/ 
+@media only screen and (min-width: 48em) and (max-width: 64em){
+
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 64em){
+    
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 80em){
+
 }
 </style>

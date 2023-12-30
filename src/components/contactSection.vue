@@ -99,71 +99,10 @@
 }
 
 @media only screen and (min-width: 427px) and (max-width: 768px){
-    .contactMe{
-        display: flex;
-        justify-content: center ;
-        /* margin-left:-60px; */
-        flex:space-between;
-        gap:10px;
-        
-    }
-    .number{
-        font-size:smaller;
-    }
-    .heading, .secTitle{
-    font-family: 'Crimson Text', serif;
-    color:#052D68;
-
-    }
-
-    .contHead{
-        display: flex;
-        justify-content: center; 
-    }
-    .heading, .secTitle{
-    font-family: 'Crimson Text', serif;
-    color:#052D68;
-
-    }
-
-    .contHead{
-        display: flex;
-        justify-content: center;  
-    }
 }
 
 @media only screen and  (min-width: 375px) and (max-width: 426px){
-.contactMe{
-        display: flex;
-        justify-content: start ;
-        margin-left:-60px;
-        flex:space-between;
-        gap:10px;
-        
-    }
-    .number{
-        font-size:smaller;
-    }
-    .heading, .secTitle{
-    font-family: 'Crimson Text', serif;
-    color:#052D68;
 
-    }
-
-    .contHead{
-        display: flex;
-        justify-content: center; 
-    }
-    .heading, .secTitle{
-    font-family: 'Crimson Text', serif;
-    color:#052D68;
-
-    }
-
-    .contHead{
-        display: flex;
-        justify-content: center;  
-    }
 }
 
 @media only screen and (max-width: 40em){
@@ -198,5 +137,81 @@
         display: flex;
         justify-content: center;  
     }
+}
+
+/* medium screens rotate */
+@media only screen and (min-width: 40em) and (max-width: 48em) {
+    .contactMe{
+        display: flex;
+        justify-content: start ;
+        margin-left:80px;
+        flex:space-between;
+        gap:10px;
+        
+    }
+    .number{
+        font-size:smaller;
+    }
+    .heading, .secTitle{
+    font-family: 'Crimson Text', serif;
+    color:#052D68;
+
+    }
+
+    .contHead{
+        display: flex;
+        justify-content: center; 
+    }
+    .heading, .secTitle{
+    font-family: 'Crimson Text', serif;
+    color:#052D68;
+
+    }
+
+    .contHead{
+        display: flex;
+        justify-content: center;  
+    }
+}
+
+/* Medium devices such as tablets (768px and up)  this is one*/ 
+@media only screen and (min-width: 48em) and (max-width: 64em){
+
+    .contactMe{
+        display: flex;
+        justify-content: center ;
+        /* margin-left:-60px; */
+        flex:space-between;
+        gap:10px;
+        
+    }
+    .number{
+        font-size:smaller;
+    }
+    .heading, .secTitle{
+    font-family: 'Crimson Text', serif;
+    color:#052D68;
+
+    }
+
+    .contHead{
+        display: flex;
+        justify-content: center; 
+    }
+    .heading, .secTitle{
+    font-family: 'Crimson Text', serif;
+    color:#052D68;
+
+    }
+
+    .contHead{
+        display: flex;
+        justify-content: center;  
+    }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 64em){
+
 }
 </style>

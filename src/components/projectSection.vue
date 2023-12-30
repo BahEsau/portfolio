@@ -128,9 +128,9 @@ export default{
     }
     .projects{
         display: inline-grid;
-        grid-template-columns: auto auto auto auto;
+        grid-template-columns: 1fr;
         margin-bottom:30px;
-        margin-left:15px;
+        margin-left:30px;
         background-color: white;
         padding:0px  10px;
         justify-content: center;
@@ -148,7 +148,8 @@ export default{
 
 }
 
-@media only screen and (min-width: 2560px){
+@media only screen and (min-width: 48em) and (max-width: 64em){
+    
     .heading, .secTitle{
         font-family: 'Crimson Text', serif;
         color:#052D68;
@@ -157,7 +158,8 @@ export default{
 
     .contHead{
         display: flex;
-        justify-content: center;  
+        justify-content: center;
+        margin-bottom:50px;  
     }
     .projectContent{
         font-size: small;
@@ -185,9 +187,9 @@ export default{
     }
     .projects{
         display: inline-grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        margin-bottom:30px;
-        margin-left:40px;
+        grid-template-columns:  1fr 1fr;
+        margin-bottom:60px;
+        margin-left:90px;
         background-color: white;
         padding:0px  10px;
         justify-content: center;
@@ -196,15 +198,16 @@ export default{
         flex-wrap:wrap; */
     }
     .container{
-        width: 100%;
-        margin-left: 16%;
+        width: 90%;
+        margin-left: 10%;
         margin-right: 7%;
         margin-top: 4%;
         border-top-right-radius: 5%;
     }
-
 }
-@media only screen and (min-width: 1440px) and (max-width: 2559){
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 64em) {
     .heading, .secTitle{
         font-family: 'Crimson Text', serif;
         color:#052D68;
@@ -243,7 +246,7 @@ export default{
         display: inline-grid;
         grid-template-columns: auto auto auto auto;
         margin-bottom:30px;
-        margin-left:40px;
+        margin-left:70px;
         background-color: white;
         padding:0px  10px;
         justify-content: center;
@@ -260,7 +263,10 @@ export default{
     }
 
 }
-@media only screen and (min-width: 1023px) and (max-width: 1440px){
+
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 80em){
     .heading, .secTitle{
         font-family: 'Crimson Text', serif;
         color:#052D68;
@@ -299,7 +305,7 @@ export default{
         display: inline-grid;
         grid-template-columns: auto auto auto auto;
         margin-bottom:30px;
-        margin-left:40px;
+        margin-left:110px;
         background-color: white;
         padding:0px  10px;
         justify-content: center;
@@ -317,6 +323,9 @@ export default{
 
 }
 
+
+
+/* phone on rotate*/
 @media only screen and (min-width: 427px) and (max-width: 768px){
     .heading, .secTitle{
         font-family: 'Crimson Text', serif;
@@ -356,7 +365,7 @@ export default{
         display: inline-grid;
         grid-template-columns: auto auto auto auto;
         margin-bottom:30px;
-        margin-left:50px;
+        margin-left:10px;
         background-color: white;
         padding:0px  10px;
         justify-content: center;
@@ -374,123 +383,10 @@ export default{
 
 }
 
-@media only screen and  (min-width: 376px) and (max-width: 426px) {
-    .heading, .secTitle{
-        font-family: 'Crimson Text', serif;
-        color:#052D68;
-
-    }
-
-    .contHead{
-        display: flex;
-        justify-content: center;  
-    }
-    .projectContent{
-        font-size: small;
-        margin-left: 5%;
-        margin-right: 5%;
-
-    }
-    .projectTitle{
-    color:#ff9900;
-
-    }
-    .logo:hover{
-    color:#ff9900;
-
-    }
-
-    .projectTechnologies{
-        font-size: small;
-        color:#052D68;
-    }
-    .logo{
-    display:flex;
-    margin-left:200px;
-    width: fit-content;
-    }
-    .projects{
-        display: inline-grid;
-        grid-template-columns: auto auto auto auto;
-        margin-bottom:30px;
-        margin-left:40px;
-        background-color: white;
-        padding:0px  10px;
-        justify-content: center;
-        
-        /* display:inline-flex;
-        flex-wrap:wrap; */
-    }
-    .container{
-        width: 80%;
-        margin-left: 16%;
-        margin-right: 7%;
-        margin-top: 4%;
-        border-top-right-radius: 5%;
-    }
-
-}
-
-@media only screen and  (max-width: 376px) {
-    .heading, .secTitle{
-        font-family: 'Crimson Text', serif;
-        color:#052D68;
-
-    }
-
-    .contHead{
-        display: flex;
-        justify-content: center;  
-    }
-    .projectContent{
-        font-size: small;
-        margin-left: 5%;
-        margin-right: 5%;
-
-    }
-    .projectTitle{
-    color:#ff9900;
-
-    }
-    .logo:hover{
-    color:#ff9900;
-
-    }
-
-    .projectTechnologies{
-        font-size: small;
-        color:#052D68;
-    }
-    .logo{
-    display:flex;
-    margin-left:200px;
-    width: fit-content;
-    }
-    .projects{
-        display: inline-grid;
-        grid-template-columns: auto auto auto auto;
-        margin-bottom:30px;
-        margin-left:15px;
-        background-color: white;
-        padding:0px  10px;
-        justify-content: center;
-        
-        /* display:inline-flex;
-        flex-wrap:wrap; */
-    }
-    .container{
-        width: 80%;
-        margin-left: 16%;
-        margin-right: 7%;
-        margin-top: 4%;
-        border-top-right-radius: 5%;
-    }
-
-}
 
 
-@media only screen and (max-width: 320px){
 
 
-}
+
+
 </style>

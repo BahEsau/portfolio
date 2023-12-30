@@ -36,7 +36,7 @@
                         grid-cols-2
                         space-x-16
                         mt-16">
-                <button class="hirebtn
+                        <a href="mailto:eaesau@gmail.com"> <button class="hirebtn
                                 font-semibold
                                 rounded-lg
                                 w-28
@@ -48,6 +48,7 @@
                                 hover:animate-none"
                                 title="Hire Me"          
                                 >Hire Me</button>
+                        </a>
                                 
             
                 <button class="cvbtn
@@ -89,12 +90,13 @@ export default{
 </script>
 
 <style scoped>
-
+/* small devices like phones */
 @media only screen and (max-width: 40em) {
     .welcome{
         margin-left:10%;
         width: 90%;
-        margin-top:500px;
+        margin-top:530px;
+        /* margin-top: 137%; */
     }
     .audience{
         margin-left:0%;
@@ -154,7 +156,68 @@ export default{
 }
 
 
-@media only screen and (min-width: 769px){
+/* medium screens rotate */
+@media only screen and (min-width: 40em) and (max-width: 48em){
+
+    .welcome{
+        margin-left:15%;
+        width: 85%;
+        margin-top:80%;
+    }
+    .audience{
+        margin-left:0%;
+        width: 90%;
+        margin-top:60%;
+    }
+    .greetings{
+        background-color:#ff99000a;
+        color:#a66400fe;
+        margin-left:-10%;
+    }
+    
+    .hirebtn{
+        background-color:#ff9900;
+        color:white;
+        border: solid 2px #ff9900;
+        width:90px;
+    }
+    .hirebtn:hover{
+        background-color:#e68e0a;
+        border: solid 2px #e68e0a;
+    }
+    .cvbtn{
+        background-color:white;
+        color:#ff9900;
+        border: solid 2px #ff9900;
+        width:90px;
+        font-size:smaller;
+        margin-right:20px;
+
+    }
+    .svgDonwload{
+        width:14px;
+        height:14px;
+        margin-left:20px;
+        margin-top:4px;
+    }
+    .cvbtn:hover{
+        background-color:#ff9900;
+        color:white;
+    }
+    hr{
+        border: solid 1px #ff9900;
+
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+    .name{
+        font-family: 'Crimson Text', serif;
+        color: #002256;
+        font-size: 30px;
+    }
+}
+
+/* Medium devices such as tablets (768px and up)  this is one*/ 
+@media only screen and (min-width: 48em) and (max-width: 64em){
     .welcome{
         margin-left:15%;
         width: 40%;
@@ -213,7 +276,8 @@ export default{
     
 }
 
-@media only screen and (min-width: 427px) and (max-width: 768px){
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 64em){
     .welcome{
         margin-left:15%;
         width: 35%;
@@ -270,68 +334,8 @@ export default{
         font-size: 30px;
     }
 
-}
-
-@media only screen and  (min-width: 375px) and (max-width: 426px) {
-    .welcome{
-        margin-left:15%;
-        width: 85%;
-        margin-top:500px;
-    }
-    .audience{
-        margin-left:0%;
-        width: 90%;
-        margin-top:60%;
-    }
-    .greetings{
-        background-color:#ff99000a;
-        color:#a66400fe;
-        margin-left:-10%;
-    }
-    
-    .hirebtn{
-        background-color:#ff9900;
-        color:white;
-        border: solid 2px #ff9900;
-        width:90px;
-    }
-    .hirebtn:hover{
-        background-color:#e68e0a;
-        border: solid 2px #e68e0a;
-    }
-    .cvbtn{
-        background-color:white;
-        color:#ff9900;
-        border: solid 2px #ff9900;
-        width:90px;
-        font-size:smaller;
-        margin-right:20px;
-
-    }
-    .svgDonwload{
-        width:14px;
-        height:14px;
-        margin-left:20px;
-        margin-top:4px;
-    }
-    .cvbtn:hover{
-        background-color:#ff9900;
-        color:white;
-    }
-    hr{
-        border: solid 1px #ff9900;
-
-    }
-    @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
-    .name{
-        font-family: 'Crimson Text', serif;
-        color: #002256;
-        font-size: 30px;
-    }
 
 }
 
-@media only screen and (max-width: 320px){
 
-}
 </style>

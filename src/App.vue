@@ -35,9 +35,9 @@
                   font-bold
                   " href="#Welcome" v-smooth-scroll>Esau
        </a>
-       <div class="menu object-content bg-white">
-        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"><path fill="#FF9900" d="M3 18v-2h18v2zm0-5v-2h18v2zm0-5V6h18v2z"/></svg>
-    </div>
+       <div class="menu object-content bg-white hover:pointer"  @click="showMenu()">
+          <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"><path fill="#FF9900" d="M3 18v-2h18v2zm0-5v-2h18v2zm0-5V6h18v2z"/></svg>
+       </div>
     </div>
 
     <div class="
@@ -52,8 +52,10 @@
                 pt-4
                 pl-3
                 ml-40
-                font-normal">
-       <ul class="grid
+                font-normal"
+                :class="this.showMobileMenu ? 'open-menu' : 'closed-menu'">
+       <ul class="nav-items
+                 grid
                  sm:gap-x-5
                  md:gap-x-10
                  lg:gap-x-16
@@ -65,8 +67,11 @@
                  
                  sm:grid-cols-5 
                  md:grid-cols-5 
-                 lg:grid-cols-5 
-                 ">
+                 lg:grid-cols-5
+                 object-content 
+                 "
+                 id="myLinks">
+          
             <li class="l" title="go to about me section" href="#About Me" v-smooth-scroll>About Me</li>
             <li class="l" title="go to projects section" href="#Projects" v-smooth-scroll>Projects</li>
             <li class="l" title="go to experience section" href="#Experience" v-smooth-scroll>Experience</li>
@@ -157,11 +162,14 @@
   width:24px;
   z-index:100;
   margin-top:20px;
-  margin-left:320px;
+  margin-left:85%;
   position:fixed;
 }
 .l{
-    color: #002256;  
+    color: #002256;
+    text-align: center; 
+   
+     
 }
 .l:hover{
     /* text-decoration: underline 2px #FF9900; */
@@ -170,6 +178,7 @@
 }
 .Resume{
     border-color: #FF9900;
+    text-align: center;
 }
 .Resume:hover{
     cursor:pointer;
@@ -177,11 +186,44 @@
 }
 .navbarList{
     box-shadow:0px 1px 5px #dcdcff23;
-    visibility: hidden;
+    
 }
 
+  .navbar{
+  padding-top: 10px;
+  position: absolute;
+  width: 100%;
+  }
+  .open-menu {
+  opacity: 1;
+  height: 150px;
+  }
+  .closed-menu {
+  opacity: 0;
+  height: 0;
+  padding: 0;
+  display: none;
+  }
+  .navbarList {
+  flex-direction: column;
+  z-index: 100;
+  position: fixed;
+  transition: all 0.2s ease-out;
+  /* margin-top:40px;
+  margin-left:250px; */
+  margin-top:-10px;
+  margin-left:18.5%;
+  width: 65.5%;
+  
+  }
+  .nav-items {
+  display:flex;
+  justify-content:center;
+  flex-direction: column;
+  }
 
 }
+
 
 @media only screen and (min-width: 40em) and (max-width: 48em){
   .logo{
@@ -224,8 +266,38 @@
 }
 .navbarList{
     box-shadow:0px 1px 5px #dcdcff23;
-    visibility: hidden;
 }
+
+.navbar{
+  padding-top: 10px;
+  position: absolute;
+  width: 100%;
+  }
+  .open-menu {
+  opacity: 1;
+  height: 150px;
+  }
+  .closed-menu {
+  opacity: 0;
+  height: 0;
+  padding: 0;
+  display: none;
+  }
+  .navbarList {
+  flex-direction: column;
+  z-index: 100;
+  position: fixed;
+  transition: all 0.2s ease-out;
+  margin-top:-10px;
+  margin-left:65px;
+  width: 80.5%;
+  
+  }
+  .nav-items {
+  display:flex;
+  justify-content:center;
+  flex-direction: column;
+  }
 
 }
 
@@ -261,7 +333,7 @@
 }
 .navbar{
     box-shadow:0px 1px 5px #dcdcff23;
-    display: hidden;
+    
 }
 .menu{
   display:absolute;
@@ -307,7 +379,7 @@
 }
 .navbar{
     box-shadow:0px 1px 5px #dcdcff23;
-    display: hidden;
+    /* display: hidden; */
 }
 
 }
@@ -344,7 +416,7 @@
 }
 .navbar{
     box-shadow:0px 1px 5px #dcdcff23;
-    display: hidden;
+    /* display: hidden; */
 }
 
 }
@@ -376,6 +448,11 @@ export default{
     contactSection,
     footerSection
 },
+  data() {
+  return {
+  showMobileMenu: false,
+  };
+  },
   methods: {
     async downloadItem({ url, label }) {
       const response = await axios.get(url, { responseType: "blob" });
@@ -385,6 +462,9 @@ export default{
       link.download = label;
       link.click();
       URL.revokeObjectURL(link.href);
+    },
+    showMenu() {
+      this.showMobileMenu = !this.showMobileMenu;
     },
   },
 
