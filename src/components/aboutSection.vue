@@ -63,8 +63,9 @@
             </p>
         </span>
         <span class="skils relative">
+            <h2>
             <b class="ml-11
-                    skilHead">My Kills</b><br><br>
+                    skilHead">My Skills</b></h2><br><br>
             <p> 
                 <b class="arrows">>></b> CSS and HTML<br>
                 <b class="arrows">>></b> PHP<br>

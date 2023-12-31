@@ -1,5 +1,56 @@
 <template>
+ <Head>
+  <title>Portfolio</title>
+  <meta name="description" content="I'm a software engineer specialized in 
+                            building full-stack web application, UI/UX 
+                            designs and occasionally mobile
+                            applications using up-to-date languages 
+                            and technologies.">
+  <meta name="keywords" content="Bah Esau Taah,
+                                porfolio, 
+                                web developer, 
+                                software engineer, 
+                                cameroon,
+                                UI designer,
+                                UX designer,
+                                professional,
+                                laravel developer,
+                                php developer,
+                                vue.js developer,
+                                figma web designer,
+                                photoshop designer,
+                                adobe Xd designer,
+                                sKills,
+                                CSS and HTML,
+                                tailwind,
+                                Hire,
+                                Esau,
+                                Bah,
+                                Taah,">
+  <link rel="icon" href="webpic/MyIcon.svg" height="24" width="24">
+  <meta name="author" content="Bah Esau Taah" >
+
+  <!-- Social -->
+  <meta property="og:title" content="portfolio">
+  <meta property="og:description" content="I'm a software engineer specialized in 
+                            building full-stack web application, UI/UX 
+                            designs and occasionally mobile
+                            applications using up-to-date languages 
+                            and technologies.">
+  <meta property="og:image" content="src='webpic/rounded.png'">
+
+  <!-- Twitter -->
+  <meta name="twitter:title" content="portfolio">
+  <meta name="twitter:description" content="I'm a software engineer specialized in 
+                            building full-stack web application, UI/UX 
+                            designs and occasionally mobile
+                            applications using up-to-date languages 
+                            and technologies.">
+  <meta name="twitter:image" content="src='webpic/rounded.png'">
+  <meta name="twitter:card" content="summary_large_image">
+</Head>
     <div class="body relative" >
+      
       
       <!-- <navbar></navbar> -->
        
