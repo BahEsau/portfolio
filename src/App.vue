@@ -276,7 +276,7 @@
 }
 
 
-@media only screen and (min-width: 40em) and (max-width: 48em){
+@media only screen and (min-width: 40em) and (max-width: 45em){
   .logo{
     position: absolute;
 }
@@ -341,6 +341,81 @@
   transition: all 0.2s ease-out;
   margin-top:-10px;
   margin-left:65px;
+  width: 70.5%;
+  
+  }
+  .nav-items {
+  display:flex;
+  justify-content:center;
+  flex-direction: column;
+  }
+
+}
+@media only screen and (min-width: 45em) and (max-width: 47em){
+  .logo{
+    position: absolute;
+}
+.E{
+    background-color: #FF9900 !important ;
+}
+.animRs{
+    background-color: #FF9900 !important ;
+}
+.Esau{
+    color:#FF9900;
+    position:fixed;
+}
+
+.menu{
+  display:absolute;
+  height:26px;
+  width:26px;
+  z-index:100;
+  margin-top:20px;
+  margin-left:670px;
+  position:fixed;
+}
+.l{
+    color: #002256;  
+}
+.l:hover{
+    /* text-decoration: underline 2px #FF9900; */
+    cursor: pointer;
+    color: #FF9900; 
+}
+.Resume{
+    border-color: #FF9900;
+}
+.Resume:hover{
+    cursor:pointer;
+    color: #FF9900;
+}
+.navbarList{
+    box-shadow:0px 1px 5px #dcdcff23;
+}
+
+.navbar{
+  padding-top: 10px;
+  position: absolute;
+  width: 100%;
+  }
+  .open-menu {
+  opacity: 1;
+  height: 150px;
+  }
+  .closed-menu {
+  opacity: 0;
+  height: 0;
+  padding: 0;
+  display: none;
+  }
+  .navbarList {
+  flex-direction: column;
+  z-index: 100;
+  position: fixed;
+  transition: all 0.2s ease-out;
+  margin-top:-10px;
+  margin-left:65px;
   width: 80.5%;
   
   }
@@ -351,6 +426,8 @@
   }
 
 }
+
+
 
 /* Medium devices such as tablets (768px and up) */
 @media only screen and (min-width: 48em) {
@@ -397,6 +474,7 @@
 }
 
 }
+
 
 /* Large devices such as laptops (1024px and up) */
 @media only screen and (min-width: 64em) {
