@@ -1,35 +1,29 @@
 <template>
  <Head>
   <title>Portfolio</title>
-  <meta name="description" content="I'm a software engineer specialized in 
-                            building full-stack web application, UI/UX 
-                            designs and occasionally mobile
-                            applications using up-to-date languages 
-                            and technologies.">
-  <meta name="keywords" content="Bah Esau Taah,
-                                porfolio, 
-                                web developer, 
-                                software engineer, 
-                                cameroon,
-                                UI designer,
-                                UX designer,
-                                professional,
-                                laravel developer,
-                                php developer,
-                                vue.js developer,
-                                figma web designer,
-                                photoshop designer,
-                                adobe Xd designer,
-                                sKills,
-                                CSS and HTML,
-                                tailwind,
-                                Hire,
-                                Esau,
-                                Bah,
-                                Taah,">
-  <link rel="icon" href="webpic/MyIcon.svg" height="24" width="24">
-  <meta name="author" content="Bah Esau Taah" >
-
+    <meta name="site_name" content="Bah Esau Portfolio" />
+    <meta property="og:site_name" content="Bah Esau Portfolio" />
+    <meta name="url" content="https://bah-esau-portfolio.netlify.app" />
+    <meta property="og:locale" content="en_EN" />
+    <meta name="description" content=" my name is Bah Esau Taah I'm a software engineer specialized in building full-stack web application, UI/UX designs and occasionally mobile applications using up-to-date languages and technologies.">
+    <meta name="keywords" content="Bah Esau Taah, porfolio, web developer, software engineer, cameroonian web developer, UI designer, UX designer, professional, laravel developer, php developer, vue.js developer, figma web designer, photoshop designer, adobe Xd designer, CSS and HTML, tailwind, Hire">
+    <link rel="icon" href="webpic/MyIcon.svg" sizes="32x32">
+    <meta name="author" content="Bah Esau Taah" >
+  
+    <!-- Social -->
+    <meta property="og:title" content="portfolio">
+    <meta property="og:description" content=" my name is Bah Esau Taah I'm a software engineer specialized in building full-stack web application, UI/UX designs and occasionally mobile applications using up-to-date languages and technologies.">
+    <meta property="og:image" content="src='webpic/rounded.png'">
+  
+    <!-- Twitter -->
+    <meta name="twitter:title" content="portfolio">
+    <meta name="twitter:description" content="I'm a software engineer specialized in 
+                              building full-stack web application, UI/UX 
+                              designs and occasionally mobile
+                              applications using up-to-date languages 
+                              and technologies.">
+    <meta name="twitter:image" content="src='webpic/rounded.png'">
+    <meta name="twitter:card" content="summary_large_image">
   <!-- Social -->
   <meta property="og:title" content="portfolio">
   <meta property="og:description" content="I'm a software engineer specialized in 
