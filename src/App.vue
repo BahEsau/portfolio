@@ -123,7 +123,7 @@
                  "
                  id="myLinks">
           
-            <li class="l" title="go to about me section" href="#About Me" v-smooth-scroll>About Me</li>
+            <li class="l" title="go to about me section" href="#About_Me" v-smooth-scroll>About Me</li>
             <li class="l" title="go to projects section" href="#Projects" v-smooth-scroll>Projects</li>
             <li class="l" title="go to experience section" href="#Experience" v-smooth-scroll>Experience</li>
             <li class="l" title="go to contact me section" href="#Contact" v-smooth-scroll>Contact</li>
