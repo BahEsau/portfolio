@@ -97,6 +97,7 @@ export default{
         margin-left:10%;
         width: 90%;
         margin-top:530px;
+        z-index:-30;
         /* margin-top: 137%; */
     }
     .audience{
@@ -108,10 +109,12 @@ export default{
         background-color:#ff99000a;
         color:#a66400fe;
         margin-left:-10%;
+        z-index:-30;
     }
     
     .buttons{
         margin-right:20px;
+        z-index:-30;
       
     }
     .hirebtn{
@@ -119,7 +122,7 @@ export default{
         color:white;
         border: solid 2px #ff9900;
         width:90px;
-        z-index:-30;
+        z-index:-100;
     }
     .hirebtn:hover{
         background-color:#e68e0a;
@@ -169,6 +172,7 @@ export default{
         margin-left:0%;
         width: 90%;
         margin-top:60%;
+        
     }
     .greetings{
         background-color:#ff99000a;
@@ -176,11 +180,13 @@ export default{
         margin-left:-10%;
     }
     
+    
     .hirebtn{
         background-color:#ff9900;
         color:white;
         border: solid 2px #ff9900;
         width:90px;
+        z-index:-100;
     }
     .hirebtn:hover{
         background-color:#e68e0a;
