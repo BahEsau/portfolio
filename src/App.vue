@@ -1,6 +1,11 @@
 <template>
  <Head>
-  <title>Portfolio</title>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- <link rel="icon" href="<%= BASE_URL %>favicon.ico"> -->
+    <!-- <title><%= htmlWebpackPlugin.options.title %></title> -->
+    <title>Portfolio</title>
     <meta name="site_name" content="Bah Esau Portfolio" />
     <meta property="og:site_name" content="Bah Esau Portfolio" />
     <meta name="url" content="https://bah-esau-portfolio.netlify.app" />
@@ -13,35 +18,14 @@
     <!-- Social -->
     <meta property="og:title" content="portfolio">
     <meta property="og:description" content=" my name is Bah Esau Taah I'm a software engineer specialized in building full-stack web application, UI/UX designs and occasionally mobile applications using up-to-date languages and technologies.">
-    <meta property="og:image" content="src='webpic/rounded.png'">
+    <meta property="og:image" content="webpic/rounded.png">
   
     <!-- Twitter -->
     <meta name="twitter:title" content="portfolio">
-    <meta name="twitter:description" content="I'm a software engineer specialized in 
-                              building full-stack web application, UI/UX 
-                              designs and occasionally mobile
-                              applications using up-to-date languages 
-                              and technologies.">
-    <meta name="twitter:image" content="src='webpic/rounded.png'">
+    <meta name="twitter:description" content=" my name is Bah Esau Taah I'm a software engineer specialized in building full-stack web application, UI/UX designs and occasionally mobile
+applications using up-to-date languages and technologies.">
+    <meta name="twitter:image" content="webpic/rounded.png">
     <meta name="twitter:card" content="summary_large_image">
-  <!-- Social -->
-  <meta property="og:title" content="portfolio">
-  <meta property="og:description" content="I'm a software engineer specialized in 
-                            building full-stack web application, UI/UX 
-                            designs and occasionally mobile
-                            applications using up-to-date languages 
-                            and technologies.">
-  <meta property="og:image" content="src='webpic/rounded.png'">
-
-  <!-- Twitter -->
-  <meta name="twitter:title" content="portfolio">
-  <meta name="twitter:description" content="I'm a software engineer specialized in 
-                            building full-stack web application, UI/UX 
-                            designs and occasionally mobile
-                            applications using up-to-date languages 
-                            and technologies.">
-  <meta name="twitter:image" content="src='webpic/rounded.png'">
-  <meta name="twitter:card" content="summary_large_image">
 </Head>
     <div class="body relative" >
       
