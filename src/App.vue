@@ -54,7 +54,7 @@
                 min-w-40
                 -mt-2 
                 grid
-                
+                bg-white
                 ">
 
         <a class="E
@@ -68,7 +68,8 @@
                 rounded-br-xl
                 text-2xl
                 font-semibold
-                fixed" href="#Welcome" v-smooth-scroll><p>E</p> 
+                fixed
+                " href="#Welcome" v-smooth-scroll><p>E</p> 
         </a>
         <a class="Esau 
                   min-w-fit
@@ -76,7 +77,7 @@
                   text-sm
                   ml-8
                   mt-9  
-                  
+                  bg-white
                   font-bold
                   " href="#Welcome" v-smooth-scroll>Esau
        </a>
@@ -189,7 +190,7 @@
 @media only screen and (max-width: 40em) {
 .logo{
     position: absolute;
-   
+    background-color: #ffffff !important ;
     
 }
 .E{
@@ -202,7 +203,7 @@
     color:#FF9900;
     font-size: large;
     position:fixed;
-    -webkit-text-stroke:1px white;
+    /* -webkit-text-stroke:1px white; */
     
 }
 
