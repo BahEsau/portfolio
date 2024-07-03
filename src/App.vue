@@ -17,8 +17,14 @@
   
     <!-- Social -->
     <meta property="og:title" content="portfolio">
-    <meta property="og:description" content=" my name is Bah Esau Taah I'm a software engineer specialized in building full-stack web application, UI/UX designs and occasionally mobile applications using up-to-date languages and technologies.">
-    <meta property="og:image" content="webpic/rounded.png">
+    <meta property="og:type" content="website" />
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:description" content=" my name is Bah Esau Taah I'm a software engineer specialized in building full-stack web application, UI/UX designs and occasionally mobile applications using up-to-date languages and technologies."/>
+    <meta property="og:image" itemprop="image" content="webpic/rounded.png">
+    <meta property="og:updated_time" content="1440432930" />
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+    <meta property="og:url" content="https://bah-esau-portfolio.netlify.app">
   
     <!-- Twitter -->
     <meta name="twitter:title" content="portfolio">

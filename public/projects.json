@@ -4,18 +4,18 @@
         "projectTitle": "Glide-it  full-stack",
         "projectContent": "An application that allows bus operators to creates and manage trips with other related resources and permits travelers to book and pay their trips through the application",
         "projectTechnologies":"Laravel, javascript, ajax, tailwinds HTMl CSS ",
-        "published" : true
+        "published" : false
     },
     {
         "gitHubLink": "https://github.com/BahEsau/E-Bus-Booking-in-Laravel-8",
         "projectTitle": "Glide-it UI/Ux",
         "projectContent": "An application that allow bus operators to creates and manage trips with other related resources and permits travelers to book and pay their trips through the application. ",
         "projectTechnologies":"Adobe XD, photoshope ",
-        "published" : true
+        "published" : false
     },
     {
-        "gitHubLink": "#",
-        "projectTitle": "Pharmacy app UI/UX",
+        "gitHubLink": "https://www.figma.com/proto/y3u0n0i6cTYmwDqgafqzEg?page-id=0%3A1&page-id=0%3A1&node-id=203-6505&t=bFbhJQOIBFSQ3oaA-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2%3A2",
+        "projectTitle": "Mansar UI/UX",
         "projectContent": "An application that allows bus operators to creates and manage trips with other related resources and permits travelers to book and pay their trips through the application",
         "projectTechnologies":"Adobe XD, photoshope ",
         "published" : true
@@ -28,7 +28,7 @@
         "published" : true
     },
     {
-        "gitHubLink": "#",
+        "gitHubLink": "https://www.figma.com/proto/SEY1w6UGueRq7R0rIR27m0?node-id=0-1&t=QieEUoVUu9HDItI3-6",
         "projectTitle": "Pharmacy app UI/UX",
         "projectContent": "An application that allows bus operators to creates and manage trips with other related resources and permits travelers to book and pay their trips through the application",
         "projectTechnologies":"Adobe XD, photoshope ",
@@ -39,6 +39,13 @@
         "projectTitle": "student Results management system full-stack",
         "projectContent": "system that manage results in a school. Teachers create the results while each student get to see and download only his/her results slip",
         "projectTechnologies":"Laravel,  ajax, HTML, CSS, bootstrap ",
+        "published" : true
+    },
+    {
+        "gitHubLink": "https://github.com/BahEsau/a-crash-student-Result-systemhttps://www.figma.com/proto/OxJyZpTPZQD4XxlM4E0m1j?node-id=0-1&t=QieEUoVUu9HDItI3-6",
+        "projectTitle": "student Results management UI/UX",
+        "projectContent": "system that manage results in a school. Teachers create the results while each student get to see and download only his/her results slip",
+        "projectTechnologies":"Figma",
         "published" : true
     },
     {
@@ -56,13 +63,14 @@
         "projectContent": "this portfolio to showcase my skills .",
         "projectTechnologies":"Figma",
         "published" : true
-    },
+    }
+    ,
     {
         
-        "gitHubLink": "https://github.com/BahEsau/portfolio",
-        "projectTitle": "My portfolio front-end",
+        "gitHubLink": "https://www.figma.com/proto/mO6NJ3aPHQAukFD28c947M?node-id=0-1&t=QieEUoVUu9HDItI3-6",
+        "projectTitle": "My portfolio UI/Ux",
         "projectContent": "this portfolio to showcase my skills ",
-        "projectTechnologies":"vue.js ",
+        "projectTechnologies":"figma, vue.js ",
         "published" : true
     }
 
