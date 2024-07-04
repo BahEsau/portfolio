@@ -8,7 +8,7 @@
     <title>Portfolio</title>
     <meta name="site_name" content="Bah Esau Portfolio" />
     <meta property="og:site_name" content="Bah Esau Portfolio" />
-    <meta name="url" content="https://bah-esau-portfolio.netlify.app" />
+    <meta name="url" content="http://bah-esau-portfolio.netlify.app" />
     <meta property="og:locale" content="en_EN" />
     <meta
       name="description"
@@ -33,7 +33,7 @@
     <meta property="og:updated_time" content="1440432930" />
     <meta property="og:image:width" content="256" />
     <meta property="og:image:height" content="256" />
-    <meta property="og:url" content="https://bah-esau-portfolio.netlify.app" />
+    <meta property="og:url" content="http://bah-esau-portfolio.netlify.app" />
 
     <!-- Twitter -->
     <meta name="twitter:title" content="portfolio website" />
