@@ -46,14 +46,6 @@ applications using up-to-date languages and technologies."
     <meta name="twitter:card" content="summary_large_image" />
   </Head>
   <div class="body relative">
-    <link itemprop="thumbnailUrl" href="webpic/rounded.png" />
-    <span
-      itemprop="thumbnail"
-      itemscope
-      itemtype="http://schema.org/ImageObject"
-    >
-      <link itemprop="url" href="webpic/rounded.png" />
-    </span>
     <!-- <navbar></navbar> -->
 
     <nav class="navbar" id="Welcome">
